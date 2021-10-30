@@ -191,3 +191,32 @@ img {
   color: gray;
   content: "The duck symbolizes clarity, family, love, vigilance, intuition, nurturing, protection, feelings, self-expression, balance, adaptation, grace, and strength. ";
 }
+
+.dovesymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.dovesymbolism:after {
+  color: #fff;
+}
+
+.dovesymbolism:hover:after {
+  color: gray;
+  content: "The dove symbolizes new beginnings, peace, fidelity, love, luck and prosperity.";
+}
+
+.bisonsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.bisonsymbolism:after {
+  color: #fff;
+}
+
+.bisonsymbolism:hover:after {
+  color: gray;
+  content: "The bison symbolizes strength, resilience, unity, honor and generosity.";
+}
+
