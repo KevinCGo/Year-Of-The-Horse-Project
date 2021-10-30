@@ -1,46 +1,222 @@
 *,
 *:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-body{
-    height: 100vh;
-    display: grid;
-    place-items: center;
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
-.container{
-    height: 67.5vmin;
-    width: 95vmin;
-    position: relative;
-    overflow: hidden;
+.container {
+  height: 67.5vmin;
+  width: 95vmin;
+  position: relative;
+  overflow: hidden;
 }
-img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
+
+.questioncontainer {
+  height: 800px;
+  width: 95vmin;
+  position: relative;
+  overflow: hidden;
 }
-#my-img{
-    clip-path: polygon(0 0 , 50% 0, 50% 100%, 0 100%);
+
+.question_item {
+  font-weight: 570;
 }
-#slider{
-    position: relative;
-    -webkit-appearance: none;
-    width: calc( 100% + 40px);
-    height: 100%;
-    margin-left: -20px;
-    background-color: transparent;
-    outline: none;
+
+.answer_item {
+  font-weight: 400;
+  color: gray;
 }
-#slider::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    height: 40px;
-    width: 40px;
-    background: url("slider-icon.svg"),
-    rgba(255,255,255,0.3);
-    border: 3px solid #ffffff;
-    border-radius: 50%;
-    background-size: contain;
-    cursor: pointer;
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
+#my-img {
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+#slider {
+  position: relative;
+  -webkit-appearance: none;
+  width: calc(100% + 40px);
+  height: 100%;
+  margin-left: -20px;
+  background-color: transparent;
+  outline: none;
+}
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 40px;
+  width: 40px;
+  background: url("slider-icon.svg"), rgba(255, 255, 255, 0.3);
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  background-size: contain;
+  cursor: pointer;
+}
+.navbar {
+  background: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  font-weight: 700;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#navbar__logo {
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, black 0%, black 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.fa-gem {
+  margin-right: 0.5rem;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__item {
+  height: 80px;
+}
+
+.navbar__links {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  font-weight: 700;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #2a9d8f;
+  color: #fff;
+}
+
+.button:hover {
+  background: #264653;
+  transition: all 0.3s ease;
+  font-weight: 700;
+}
+
+.navbar__links:hover {
+  color: #e76f51;
+  transition: all 0.3s ease;
+  font-weight: 850;
+}
+
+.horsesymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.horsesymbolism:after {
+  color: #fff;
+  width: 100%;
+}
+
+.horsesymbolism:hover:after {
+  color: gray;
+  content: "The horse symbolizes determination, endurance, valor, freedom, travel, beauty, majesty, and spirit. ";
+}
+
+.ducksymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.ducksymbolism:after {
+  color: #fff;
+}
+
+.ducksymbolism:hover:after {
+  color: gray;
+  content: "The duck symbolizes clarity, family, love, vigilance, intuition, nurturing, protection, feelings, self-expression, balance, adaptation, grace, and strength. ";
+}
+
+.dovesymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.dovesymbolism:after {
+  color: #fff;
+}
+
+.dovesymbolism:hover:after {
+  color: gray;
+  content: "The dove symbolizes new beginnings, peace, fidelity, love, luck and prosperity.";
+}
+
+.bisonsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.bisonsymbolism:after {
+  color: #fff;
+}
+
+.bisonsymbolism:hover:after {
+  color: gray;
+  content: "The bison symbolizes strength, resilience, unity, honor and generosity.";
+}
+
