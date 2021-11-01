@@ -288,6 +288,19 @@ img {
 
 .bearsymbolism:hover:after {
   color: gray;
-  content: "The bear symbolizes trength, family, vitality courage and health.";
+  content: "The bear symbolizes strength, family, vitality courage and health.";
 }
 
+.hummingbirdsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.hummingbirdsymbolism:after {
+  color: #fff;
+}
+
+.hummingbirdsymbolism:hover:after {
+  color: gray;
+  content: "The hummingbird symbolizes joy, healing, good luck, messages from spirits, and other special qualities.";
+}
