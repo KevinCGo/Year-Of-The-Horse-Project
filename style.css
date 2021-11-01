@@ -220,3 +220,87 @@ img {
   content: "The bison symbolizes strength, resilience, unity, honor and generosity.";
 }
 
+.hawksymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.hawksymbolism:after {
+  color: #fff;
+}
+
+.hawksymbolism:hover:after {
+  color: gray;
+  content: "The hawk symbolizes intelligence, independence, adaptability, messages, clairvoyance, and spiritual awareness.";
+}
+
+
+.lionsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.lionsymbolism:after {
+  color: #fff;
+}
+
+.lionsymbolism:hover:after {
+  color: gray;
+  content: "The lion symbolizes majesty, strength, courage, justice, and military might.";
+}
+
+.squirrelsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.squirrelsymbolism:after {
+  color: #fff;
+}
+
+.squirrelsymbolism:hover:after {
+  color: gray;
+  content: "The squirrel symbolizes an abundance of money, food, warmth, preparedness, love, health, comfort, and rest.";
+}
+
+.wolfsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.wolfsymbolism:after {
+  color: #fff;
+}
+
+.wolfsymbolism:hover:after {
+  color: gray;
+  content: "The wolf symbolizes loyalty, family and friendship, teamwork, protection, wildness, freedom, instincts, and playfulness.";
+}
+
+.bearsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.bearsymbolism:after {
+  color: #fff;
+}
+
+.bearsymbolism:hover:after {
+  color: gray;
+  content: "The bear symbolizes strength, family, vitality courage and health.";
+}
+
+.hummingbirdsymbolism {
+    text-align: center;
+    width: 500px;
+}
+
+.hummingbirdsymbolism:after {
+  color: #fff;
+}
+
+.hummingbirdsymbolism:hover:after {
+  color: gray;
+  content: "The hummingbird symbolizes joy, healing, good luck, messages from spirits, and other special qualities.";
+}
